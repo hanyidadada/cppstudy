@@ -8,7 +8,7 @@ using std::endl;
 template<class T>
 QueueTp<T>::QueueTp(int qs) : qsize(qs)
 {
-    front = rear = NULL;
+    front = rear = 0;
     items = 0;
 }
 
@@ -21,24 +21,6 @@ QueueTp<T>::~QueueTp()
         front = front->next;
         delete temp;
     }
-}
-
-template<class T>
-bool QueueTp<T>::isempty() const
-{
-    return items == 0;
-}
-
-template<class T>
-bool QueueTp<T>::isfull() const
-{
-    return items == qsize;
-}
-
-template<class T>
-int QueueTp<T>::queuecount() const
-{
-    return items;
 }
 
 template<class T>

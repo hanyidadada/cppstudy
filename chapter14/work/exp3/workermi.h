@@ -17,12 +17,14 @@ private:
     Node *rear;
     int items;
     const int qsize;
+    QueueTp(const QueueTp &q) : qsize(0) { };
+    QueueTp & operator=(const QueueTp &q) { return *this; };
 public:
     QueueTp(int qs = QSIZE);
     ~QueueTp();
-    bool isempty() const;
-    bool isfull() const;
-    int queuecount() const;
+    bool isempty() const { return items == 0; };
+    bool isfull() const { return items == qsize; };
+    int queuecount() const { return items; };
     bool enqueue(const T &item);
     bool dequeue(T &item);
 };
