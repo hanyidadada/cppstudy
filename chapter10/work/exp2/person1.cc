@@ -5,7 +5,7 @@
 Person::Person(const std::string &ln, const char *fn)
 {
     lname = ln;
-    std::strcpy(fname, fn);    
+    std::strcpy(fname, fn);   
 }
 
 void Person::Show() const

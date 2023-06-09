@@ -39,7 +39,7 @@ complex complex::operator*(double n) const
 
 complex complex::operator~() const
 {
-    return complex(-real, -img);
+    return complex(real, -img);
 }
 
 complex operator*(double n, const complex &b)

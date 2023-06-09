@@ -19,7 +19,7 @@ public:
     void sell(long num, double price);
     void update(double price);
     void show() const;
-    const Stock & topval(const Stock &s) const;
+    const Stock & topval(const Stock &s) const; //不可修改对象本身
 };
 
 #endif

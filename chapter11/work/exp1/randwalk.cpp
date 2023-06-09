@@ -28,7 +28,10 @@ int main(void)
             direction = rand() % 360;
             step.reset(dstep, direction, Vector::POL);
             result = result + step;
-            fout << steps << ": (x,y) = (" << result.xval() << ", " << result.yval() << ")\n";
+            // fout << steps << ": (x,y) = (" << result.xval() << ", " << result.yval() << ")\n";
+            result.rect_mode();
+            fout << steps << ": " << result;
+            result.polar_mode();
             steps++;
         }
         cout << "After " << steps << " steps, the subject has the following location:\n";
