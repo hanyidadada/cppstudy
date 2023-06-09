@@ -7,8 +7,7 @@ int main(){
     cout << "Enter characters; enter # to-quit:\n";
     cin.get(ch); //使用get成员函数读取空格
     // cin >> ch //直接使用cin会导致空格无法读取的问题
-    while (ch != '#')
-    {
+    while (ch != '#') {
         cout << ch;
         ++count;
         cin.get(ch);

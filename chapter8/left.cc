@@ -18,8 +18,7 @@ int main(){
 
 char * left(const char * str, int n)
 {
-    if (n<0)
-    {
+    if (n<0) {
         n =0;
     }
     char *p = new char[n+1];

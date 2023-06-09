@@ -26,6 +26,7 @@ int main(){
     {
         cout << cars[i].years << " " << cars[i].producer << endl;
     }
+    delete [] cars;
     return 0;
 }
 

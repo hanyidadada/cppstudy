@@ -47,6 +47,8 @@
         "streambuf": "cpp",
         "cinttypes": "cpp",
         "typeinfo": "cpp",
-        "valarray": "cpp"
-    }
+        "valarray": "cpp",
+        "climits": "cpp"
+    },
+    "cmake.sourceDirectory": "/home/hanyi/cppstudy/chapter9/exp1"
 }

@@ -6,11 +6,9 @@ int main(){
     cout << "Please enter your golf scores.\n";
     cout << "You must enter " << Max << " rounds.\n";
     int i;
-    for (i = 0; i < Max; i++)
-    {
+    for (i = 0; i < Max; i++) {
         cout << "round #" << i+1 << ": ";
-        while (!(cin >> golf[i]))
-        {
+        while (!(cin >> golf[i])) {
             cin.clear();
             while (cin.get() != '\n')//跳过本行的所有字符
             {

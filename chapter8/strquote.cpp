@@ -47,7 +47,7 @@ const string & version2(string &s1, const string &s2)
 
 const string & version3(string &s1, const string &s2)
 {
-    string temp;
+    string temp; //临时变量导致引用内存出错，与指针类似
 
     temp = s2 + s1 + s2;
     return temp;
