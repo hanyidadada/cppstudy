@@ -57,7 +57,7 @@ QueueTp<Item>::~QueueTp()
 template<class Item>
 bool QueueTp<Item>::enqueue(const Item &item)
 {
-    if (isfull()) {
+      if (isfull()) {
         return false;
     }
     Node *add = new Node(item);
