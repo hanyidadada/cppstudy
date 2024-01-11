@@ -9,6 +9,6 @@ int main(){
     cout << "Enter the population of the US: ";
     cin >> USnum;
     double result = (double)USnum/Worldnum;
-    cout << "The population of the US is " << result*100 << "% of the world popilation.\n";
+    cout << "The population of the US is " << result*100 << "% of the world population.\n";
     return 0;
 }

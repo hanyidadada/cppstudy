@@ -1,11 +1,11 @@
-//ÊäÈëÖĞÎÄĞèÒª¸ü¸Ä±àÂëÎÄ¼şGBK±àÂë£¬ÖÕ¶ËGBK
+//è¾“å…¥ä¸­æ–‡éœ€è¦æ›´æ”¹ç¼–ç æ–‡ä»¶GBKç¼–ç ï¼Œç»ˆç«¯GBK
 #include<iostream>
 int main(){
     char name[20],addr[20];
-    std::cout << "ÇëÊäÈëÄãµÄÃû×Ö£º";
+    std::cout << "è¯·è¾“å…¥ä½ çš„åå­—ï¼š";
     std::cin >> name;
-    std::cout << "ÇëÊäÈëÄãµÄµØÖ·£º";
+    std::cout << "è¯·è¾“å…¥ä½ çš„åœ°å€ï¼š";
     std::cin >> addr;
-    std::cout << "»¶Ó­Äú" << name << "£¬×¡Ö·£º" << addr << std::endl;
+    std::cout << "æ¬¢è¿æ‚¨" << name << "ï¼Œä½å€ï¼š" << addr << std::endl;
     return 0;
 }
