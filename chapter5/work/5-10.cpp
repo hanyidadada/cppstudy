@@ -11,7 +11,7 @@ int main(){
         {
             std::cout << ".";
         }
-        for (int j = 0; j <= i; j++)
+        for (int j = 0; j < i; j++)
         {
             std::cout << "*";
         }
